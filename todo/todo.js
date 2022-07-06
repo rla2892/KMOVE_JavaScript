@@ -39,5 +39,19 @@ addBtn.addEventListener('click', ()=>{
     todoList.appendChild(li);
 
     inputText.value = '';
+
+    spanLike.addEventListener('click', ()=>{
+        let currentText = spanLike.firstElementChild.innerText;
+        if(currentText === 'favorite_border'){
+            spanLike.firstElementChild.innerText = 'favorite';
+        }else{
+            spanLike.firstElementChild.innerText = 'favorite_border';
+        }
+    });
+
+    spanDel.addEventListener('click', ()=>{
+        li.remove();
+    });
+
 });
 
