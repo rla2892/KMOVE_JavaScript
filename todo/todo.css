@@ -36,3 +36,9 @@
     background-color: cadetblue;
     color: black;
 }
+
+.inputext-container > button:hover{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+}
