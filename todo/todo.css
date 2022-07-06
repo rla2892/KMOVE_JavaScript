@@ -1,0 +1,38 @@
+* {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper > header {
+    color: aqua;
+    background-color: purple;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper > section {
+    margin: 0.5em;
+}
+
+.inputext-container > * {
+    height: 2em;
+    border: 0.05em solid gainsboro;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    font-size: 1.5em;
+}
+
+.inputext-container > input {
+    width: 70%;
+    background-color: white;
+    color: black;
+}
+
+.inputext-container > button {
+    width: 20%;
+    background-color: cadetblue;
+    color: black;
+}
