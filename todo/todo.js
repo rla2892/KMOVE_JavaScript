@@ -4,7 +4,6 @@ let inputText = document.querySelector("#inputext");
 let todoList = document.querySelector("#items");
 
 addBtn.addEventListener('click', ()=>{
-    
     let todoText = inputText.value;
 
     let li = document.createElement('li');
