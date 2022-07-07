@@ -27,7 +27,10 @@ const deleteLast = () => {
 let addEv = document.querySelector('#add');
 let removeEv = document.querySelector('#remove');
 
-addEv.addEventListener('click', () => {
+addEv.addEventListener('click', (e) => {
+    console.log(e);
+    console.log(e.currentTarget);
+    console.log(e.target.innerText);
     falert();
 });
 removeEv.addEventListener('click', () => {
